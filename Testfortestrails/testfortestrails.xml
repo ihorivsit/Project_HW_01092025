@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>testfortestrails</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C54</id>
+				<title>Перевірка поля &quot;Ім&apos;я&quot; (коректне)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Ввести коректне ім&apos;я
+</steps>
+											<expected>Форма введення приймає значення</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C56</id>
+				<title>Перевірка поля &quot;Ім&apos;я&quot; (не коректне)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Залишити поле пустим
+</steps>
+											<expected>Форма введення не приймає значення та інформує про помилку</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C57</id>
+				<title>Перевірка поля &quot;E-mail&quot; (коректне)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Ввести e-mail правильного формату
+2. Перейти на інше поле</steps>
+											<expected>Форма введення приймає значення</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C59</id>
+				<title>Перевірка поля &quot;E-mail&quot; (не коректне)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Залишити поле пустим
+2. Перейти на інше поле</steps>
+											<expected>Форма введення не приймає значення та інформує про помилку</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C60</id>
+				<title>Перевірка поля &quot;Телефон&quot; (коректне)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Ввести телефон в форматі +380123456789
+</steps>
+											<expected>Форма введення приймає значення</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C62</id>
+				<title>Перевірка поля &quot;Телефон&quot; (не коректне)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Ввести телефон в форматі відмінному від формату +380123456789, менше/більше цифр
+</steps>
+											<expected>Форма введення не приймає значення та інформує про помилку</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C63</id>
+				<title>Перевірка поля &quot;Коментар&quot; (коректне)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Ввести до 255 символів
+
+</steps>
+											<expected>Форма введення приймає значення</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C64</id>
+				<title>Перевірка поля &quot;Коментар&quot; (не коректне)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Ввести більше 255 символів
+
+</steps>
+											<expected>Форма введення не приймає значення та інформує про обмеження</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C66</id>
+				<title>Перевірка прикріплення файлу (коректний)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Прикріпити PDF/DOCX/JPG/TXT
+
+</steps>
+											<expected>Файл додається</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C67</id>
+				<title>Перевірка прикріплення файлу (не коректний - занадто великий)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Прикріпити файл розміром понад 10 МБ
+
+</steps>
+											<expected>Файл не додається та висвітлюється інформація про помилку</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C70</id>
+				<title>Перевірка згоди на прийняття умов (коректно)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Поставити галочку &quot;Прийняти умови...&quot; 
+
+
+</steps>
+											<expected>Форма відправляється</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C72</id>
+				<title>Перевірка відправки форми (коректно)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Заповнити всі поля коректними даними
+2. Поставити галочку на прийняття умов Політики конфіденційності
+3. Натиснути Відправити</steps>
+											<expected>Форма відправляється</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C75</id>
+				<title>Перевірка адаптивності форми на різних пристроях (коректна)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Відкрити форму на мобільному пристрої (телефон, планшет)</steps>
+											<expected>Форма відображається коректно</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C76</id>
+				<title>Перевірка функціональності кнопок соцмереж (коректно)</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Клікнути на іконках соцмереж
+</steps>
+											<expected>Відкриваються відповідні сторінки соцмереж в нових вкладках браузера</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C77</id>
+				<title>Перевірка вибору &quot;Тематики звернення&quot; (коректно</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>IhorSyt</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<steps>1. Клікнути на стрілці вибору тематики звернення
+2. Вибрати тематику звернення (наприклад &quot;Інші&quot;) </steps>
+											<expected>Поле &quot;Тематика звернення&quot; відображає обрану тематику</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Авторизация на проекте МАЙСТАТ</name>
+		<description></description>
+									</section>
+	</sections>
+</suite>
